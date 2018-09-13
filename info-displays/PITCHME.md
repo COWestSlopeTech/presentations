@@ -33,7 +33,7 @@ Follow along with this pitch at:
 
 <br />
 
-[https://gitpitch.com/stevetarver/rft-presentations/master?p=info-displays](https://gitpitch.com/stevetarver/rft-presentations/master?p=info-displays)
+[https://gitpitch.com/RoaringForkTech/presentations/master?p=info-displays](https://gitpitch.com/RoaringForkTech/presentations/master?p=info-displays)
 
 ---
 
@@ -193,11 +193,11 @@ go version go1.11 darwin/amd64
 ### ***Create a new project***
 
 ```
-ᐅ go mod init github.com/stevetarver/rft-presentations/info-displays
-go: creating new go.mod: module github.com/stevetarver/rft-presentations/info-displays
+ᐅ go mod init github.com/RoaringForkTech/presentations/info-displays
+go: creating new go.mod: module github.com/RoaringForkTech/presentations/info-displays
 
 ᐅ cat go.mod
-module github.com/stevetarver/rft-presentations/info-displays
+module github.com/RoaringForkTech/presentations/info-displays
 ```
 
 +++
@@ -251,7 +251,7 @@ go: finding github.com/ajstarks/svgo latest
 go: downloading github.com/ajstarks/svgo v0.0.0-20180830174826-7338bd80e790
 
 ᐅ cat go.mod
-module github.com/stevetarver/rft-presentations/info-displays
+module github.com/RoaringForkTech/presentations/info-displays
 
 require github.com/ajstarks/svgo v0.0.0-20180830174826-7338bd80e790 // indirect
 ```
