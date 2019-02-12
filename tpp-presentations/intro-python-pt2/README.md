@@ -166,3 +166,7 @@ Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 NameError: name 'x' is not defined
 ```
+
+### Repl.it Putting it together example
+
+https://repl.it/@JeremyCerise/GitHubPython-API-Example
