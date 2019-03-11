@@ -1,29 +1,40 @@
 ## Overview
 
-GitPitch is GitHub based slide presentation, by GitHub.
+GitPitch provides a simple, free, version controlled presentation facility that is readily viewable from any computer connected to the internet. It is becoming a programming presentation standard at recent conferences.
 
-See the [60 second overview](https://github.com/gitpitch/in-60-seconds) to get started - it really is that easy.
+Pros:
 
-### Multiple Pitches in a single repo
+* Presentation is a text document - no proprietary, OS specific, paid software required. Anyone can generate or collaborate on presentations.
+* Our organization, one presentation per directory, allows simple storage and access to all assets
+* Audience has access to the presentation and all assets before, during, and after the presentation
 
-You can store different pitches in different branches (default), OR different directories:
+Cons:
 
-* Different branches: `https://gitpitch.com/$user/$repo/$branch`
-* Different directories: `https://gitpitch.com/$user/$repo/$branch?p=$directory`
+* Doesn't have the visual point and click simplicity of KeyNote or PowerPoint.
+* Doesn't have the rich theming available in KeyNote or PowerPoint.
+* Developing the pitch can be tedious without the Desktop App
 
-
-View this pitch at [https://gitpitch.com/RoaringForkTech/presentations/master?p=info-displays#/](https://gitpitch.com/RoaringForkTech/presentations/master?p=info-displays#/)
-
-### GitPitch links
+## References
 
 * [Features](https://gitpitch.com/features)
 * [Docs](https://gitpitch.com/docs)
 * [Template Gallery](https://gitpitch.com/templates)
 * [Kitchen Sink](https://gitpitch.com/gitpitch/kitchen-sink#/)
 
-## Tips
 
-### Rapid development
+## Create a new presentation
+
+Each presentation resides in its own directory, in a single `PITCHME.md` and configured by a `PITCHME.yaml`.
+
+1. Create a new directory with a name that indicates the presentation.
+1. Add a `PITCHME.md`, `PITCHME.yaml`
+1. Create a `README.md` that will contain general notes for offline viewing or using the assets
+1. Create a `pitch` directory that will contain all pitch assets - images, etc.
+
+
+## Iteratively develop the presentation
+
+**NOTE**: If you use GitPitch frequently, the Desktop App is included in the Lite version ($4/mo) and should trivialize much of this work.
 
 To shorten the write-push-view loop:
 

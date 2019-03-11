@@ -1,4 +1,4 @@
-This project supports the PITCHME.md at repo root. You can see the pitch at [https://gitpitch.com/stevetarver/rft-presentations/master?p=info-displays](https://gitpitch.com/RoaringForkTech/presentations/master?p=info-displays)
+This project supports the PITCHME.md at repo root. You can see the pitch at [https://gitpitch.com/RoaringForkTech/presentations/master?p=info-displays](https://gitpitch.com/RoaringForkTech/presentations/master?p=info-displays#/)
 
 This is an incremental journey into Go using AJ Starks `svgo` package to create SVGs. The two larger examples have numbered directories that show evolution of each from scratch to 'finished' command line program.
 
